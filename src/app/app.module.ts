@@ -1,3 +1,4 @@
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -8,6 +9,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    AngularFontAwesomeModule,
     BrowserModule
   ],
   providers: [],

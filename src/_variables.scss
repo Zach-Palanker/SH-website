@@ -1,0 +1,41 @@
+$fa-font-path : '../node_modules/font-awesome/fonts';
+
+$colors: (
+    toolbar-primary: #56504e,
+    primary:#F16823,
+    primary-dark: #E15610,
+    primary-darker: #C54B0D,
+    primary-light: #F77838,
+    primary-lighter: #FF874A,
+    secondary:  #ffffff,
+    brand-secondary: #169A80,
+    secondary-dark:  #0A9076,
+    secondary-darker:  #087E67,
+    secondary-light:  #249E86,
+    secondary-lighter:  #30A58E,
+    complement: #18A665,
+    complement-dark: #0B9B5A,
+    complement-darker: #09884E,
+    complement-light: #27AB6F,
+    complement-lighter: #33B278,
+    gray: #C2BAB5,
+    gray-dark: #9C918C,
+    gray-darker: #756962,
+    gray-light: #EEE8E5,
+    gray-lighter: #FFFDFC,
+    background: #F7F7F7,
+    danger: #df6353,
+    success: #3ea75a,
+    light:      #ffffff,
+    dark:       #222,
+    facebook: #3b5998,
+    twitter: #00aced,
+    google: #db3236,
+    formBorder: #c8c7cc
+  );
+
+  $a:white;
+
+
+  @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+  $font-family: "Oswald", Helvetica, Arial, sans-serif;
