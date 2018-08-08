@@ -1,118 +1,80 @@
 @import '/home/zach/git/website/sliphook-website/src/_variables.scss';
+.home {
+    color: white;
+    background: map-get($colors, primary-lighter);
+}
 
-@media screen and (min-width: 767px) {
-    .home {
-        //padding: 100px 200px;
-        color: white;
-        padding-left: 75px;
-        padding-right: 200px;
-        background: map-get($colors, primary-lighter);
-    }
-    .aboutSection {
-        //padding-top:50px;
-        //padding-bottom: 50px;
-        padding: 100px 200px;
-        padding-top: 100px;
-    }
-    .signUpSection {
-        padding: 100px 200px;
-        padding-top: 25px;
-        background: map-get($colors, gray-light);
-    }
+.signUpSection {
+    background: map-get($colors, gray-light);
+}
+
+.container {
+    padding-bottom: 50px;
+}
+
+.aboutSection {
     .fa {
         color: map-get($colors, primary-light) !important;
         padding-top: 30px;
     }
-    .col-md-1 {
-        text-align: center;
-    }
-    .col-md-3 {
-        text-align: left;
-        padding-left: 25px;
-    }
-    .sectionTitles {
-        text-align: center;
-        padding-bottom: 25px;
-    }
-    .form-control {
-        height: 300px;
-    }
-    .btn {
-        background: map-get($colors, primary-light);
-        color: white;
-    }
-    .form-actions {
-        text-align: center;
-    }
-    .accessInfo {
-        padding-right: 150px;
-    }
-    .intro {
-        padding-right: 225px;
-        text-align: left;
-    }
-    .footer {
-        text-align: center;
-        padding: 50px;
-        .fa {
-            color: #656565 !important;
-            padding: 10px;
-        }
-    }
-    .appStores {
-        text-align: right;
-        padding-right: 150px;
-    }
-    .navbar {
-        padding-right: 50px;
-        color: white;
-        font-size:2rem;
-    }
-    .storeBtn {
-        padding: 15px;
-    }
-}
-
-//************************mobile view********************************
-
-.aboutSection {
-    text-align: center;
-}
-
-.signUpSection {
-    padding-top: 25px;
-    background: map-get($colors, gray-light);
-}
-
-.fa {
-    color: map-get($colors, primary-light) !important;
-    padding-top: 30px;
 }
 
 .col-md-1 {
     text-align: center;
 }
 
-.navbar {
-    padding-right: 0px;
+.col-md-3 {
+    text-align: left;
+    padding-left: 25px;
 }
 
 .sectionTitles {
     text-align: center;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .form-control {
     height: 300px;
 }
 
-.btn {
-    background: map-get($colors, primary-light);
+.form-actions {
+    text-align: center;
+    .btn {
+        background: map-get($colors, primary-light);
+        color: white;
+    }
 }
+
 .footer {
     text-align: center;
+    padding: 25px;
     .fa {
         color: #656565 !important;
         padding: 10px;
     }
+    .fa-twitter {
+        color: map-get($colors, twitter) !important;
+    }
+    .btn {
+        background: white;
+    }
+}
+
+.navbar {
+    padding-right: 50px;
+    font-size: 2rem;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.appStores {
+    text-align: right;
+}
+
+.storeBtn {
+    height: 190px;
+    padding: 5px;
 }
